@@ -40,5 +40,3 @@ Para: Cridlésia
 
 ---
 
-Desenvolvido por: Sofia Gunza
-Agência: Cridlésia
