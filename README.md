@@ -7,6 +7,9 @@ Catálogo digital desenvolvido para a Cridlésia, com o objectivo de apresentar 
 
 A solução permite aos potenciais clientes consultar os serviços disponíveis, explorar as opções e encaminhar os seus pedidos através do WhatsApp.
 
+link do projecto: https://catalogo-car-cridlesia.netlify.app
+
+
 ## Funcionalidades
 
 - Apresentação dos serviços da agência.
@@ -34,7 +37,7 @@ A solução permite aos potenciais clientes consultar os serviços disponíveis,
 - Design de interfaces e experiência do utilizador (UI/UX).
 - Organização e apresentação da informação.
 
-### https://catalogo-car-cridlesia.netlify.app
+
 
 
 #### Desenvolvido por: Sofia Gunza 
