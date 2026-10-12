@@ -35,7 +35,7 @@ A solução permite aos potenciais clientes consultar os serviços disponíveis,
 - Organização e apresentação da informação.
 
 
-## Desenvolvido por: Sofia Gunza 
+#### Desenvolvido por: Sofia Gunza 
 Para: Cridlésia 
 
 ---
