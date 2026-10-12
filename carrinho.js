@@ -79,7 +79,7 @@ const products = [
       const total = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
       message += `%0ATotal: ${total.toLocaleString()} Kz`;
 
-      window.open(`https://wa.me/939696653?text=${message}`, '_blank');
+      window.open(`https://wa.me/?text=${message}`, '_blank');
     }
 
     document.getElementById('search').addEventListener('input', (e) => {
