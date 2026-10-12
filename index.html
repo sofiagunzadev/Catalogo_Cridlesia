@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cridlésia | Catálogo Online</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+   <!-- link externo -->
+        <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <h1>Cridlésia</h1>
+    <div class="actions">
+      <input type="search" id="search" placeholder="Pesquisar serviços"/>
+      <button class="cart-toggle" onclick="toggleCart()">
+        <i class="fa-solid fa-cart-shopping"></i>
+       <div class="cart-count" id="cartCount">0</div>
+      </button>
+    </div>
+  
+  </header>
+
+  <main>
+     <!-- Descrição do catálogo -->
+  <div id="catalogDescription">
+    <h2><span>Bem-vindo ao Catálogo Cridlésia</span></h2>
+        <h4>Navegue, adicione ao carrinho
+        e finalize diretamente pelo WhatsApp!</h4>
+       
+  </div>
+    <div class="products" id="productList"></div>
+  </main>
+
+  <aside class="cart" id="cart">
+    <div class="cart-header">
+      <h2>Carrinho</h2>
+      <button class="close-btn" onclick="toggleCart()">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+
+    <div id="cartItems"></div>
+    <div class="cart-total" id="cartTotal">Total: 0 Kz</div>
+    <button onclick="checkoutWhatsApp()">Finalizar no WhatsApp</button>
+  </aside>
+
+  <footer>
+    <p>© Cridlésia <span id="year"></span> · Todos os Direitos Reservados</p>
+  </footer>
+</body>
+<script src="carrinho.js"></script>
+</html>
